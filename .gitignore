@@ -55,6 +55,26 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# API Keys and Secrets
+.env
+*.env
+.env.*
+!.env.example
+
 # Distribution / packaging
 .Python
 build/
@@ -71,18 +91,4 @@ var/
 wheels/
 *.egg-info/
 .installed.cfg
-*.egg
-
-# Logs and databases
-*.log
-*.sqlite
-*.db
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db 
+*.egg 
